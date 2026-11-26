@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.19)
+project(my_ctest CXX)
+if(MSVC)
+    add_compile_options(/utf-8) # UTF-8로 강제 인식
+endif()
+
+# C++17 표준 지정
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+# 실행 파일 타깃 및 라이브러리 링크
+add_executable(test_app main.cpp)
+# add_executable(my_test main.cpp)
+

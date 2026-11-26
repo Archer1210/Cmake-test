@@ -1,0 +1,13 @@
+{
+    "python.defaultInterpreterPath": 
+    "D:/Work/0_PC/1_Python/30_Deep_Learning/31_SinNew/sin_new/Scripts/python.exe",
+     "cmake.sourceDirectory": 
+    "D:/Work/0_PC/1_Python/30_Deep_Learning/31_SinNew/B0_Cmake/Cmake_04",
+    "cmake.cmakePath": "D:/Work/0_PC/Cmake/bin/cmake.exe", 	// 경로추가
+    "cmake.generator": "Ninja", //  'Ninja'라는 초고속 빌드 도구를 사용하도록 지정
+    "cmake.configureArgs": [],
+    "cmake.buildArgs": []
+    //     "--",
+    //     "-j12"
+    // ]
+}
