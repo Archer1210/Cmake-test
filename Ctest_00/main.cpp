@@ -37,6 +37,7 @@ int main()
     // }
     // test for second commit
     std::cout << std::endl << " Test End " << std::endl;
+    std::cout << " I'm freshman check !! " << std::endl;
 
     return 0;
 }
